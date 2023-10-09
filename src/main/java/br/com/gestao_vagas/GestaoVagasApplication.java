@@ -1,4 +1,4 @@
-package br.com.danieleleao.gestao_vagas;
+package br.com.gestao_vagas;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

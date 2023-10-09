@@ -1,4 +1,4 @@
-package br.com.danieleleao.gestao_vagas.modules.candidate.dto;
+package br.com.gestao_vagas.modules.candidate.dto;
 
 import org.hibernate.validator.constraints.Length;
 

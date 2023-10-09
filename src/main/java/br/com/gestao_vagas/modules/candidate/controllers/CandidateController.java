@@ -1,5 +1,6 @@
-package br.com.danieleleao.gestao_vagas.modules.candidate.controllers;
+package br.com.gestao_vagas.modules.candidate.controllers;
 
+import br.com.gestao_vagas.modules.candidate.CandidateEntity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -7,11 +8,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.danieleleao.gestao_vagas.exceptions.UserFoundException;
-import br.com.danieleleao.gestao_vagas.modules.candidate.CandidateEntity;
-import br.com.danieleleao.gestao_vagas.modules.candidate.CandidateRepository;
-import br.com.danieleleao.gestao_vagas.modules.candidate.dto.CreateCandidateRequestDTO;
-import br.com.danieleleao.gestao_vagas.modules.candidate.useCases.CreateCandidateUseCase;
+import br.com.gestao_vagas.modules.candidate.dto.CreateCandidateRequestDTO;
+import br.com.gestao_vagas.modules.candidate.useCases.CreateCandidateUseCase;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;

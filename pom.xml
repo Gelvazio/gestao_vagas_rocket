@@ -8,7 +8,7 @@
 		<version>3.1.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>br.com.danieleleao</groupId>
+	<groupId>br.com.gelvazio</groupId>
 	<artifactId>gestao_vagas</artifactId>
 	<version>0.0.1</version>
 	<name>gestao_vagas</name>

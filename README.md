@@ -19,8 +19,9 @@ Esta é uma aplicação Spring Boot que permite o gerenciamento de vagas de Recu
 2. Configure o banco de dados editando o arquivo application.properties e fornecendo as configurações necessárias:
 
     ```properties
+#    spring.datasource.url=jdbc:postgresql://localhost:5432/database
     spring.datasource.url=jdbc:postgresql://localhost:5432/database
-    spring.datasource.username=admin
+    spring.datasource.username=postgres
     spring.datasource.password=admin
     ```
 
@@ -39,7 +40,8 @@ A aplicação agora deve estar em execução em http://localhost:8080.
 
 
 ##  Documentação
-Acesse a documentação completa da API para obter informações detalhadas sobre os endpoints e como usá-los <a href="https://www.apidog.com/apidoc/shared-fade4710-ac0c-4454-8025-845b9ec61bef">aqui</a>.
+Acesse a documentação completa da API para obter informações detalhadas sobre os endpoints e como usá-los 
+<a href="https://www.apidog.com/apidoc/shared-fade4710-ac0c-4454-8025-845b9ec61bef">aqui</a>.
 
 
 

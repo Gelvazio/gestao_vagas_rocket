@@ -1,4 +1,4 @@
-package br.com.danieleleao.gestao_vagas.modules.candidate;
+package br.com.gestao_vagas.modules.candidate;
 
 import java.time.LocalDateTime;
 import java.util.UUID;
